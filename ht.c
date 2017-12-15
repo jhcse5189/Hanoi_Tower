@@ -10,14 +10,12 @@ void ht(int n, int a, int b, int c) {
 	}
 }
 int main(void) {
-	while (1) {
-		int n;
-		int power = 1;
-		scanf_s("%d", &n);
-		for (int i = 0; i < n; i++) {
-			power *= 2;
-		}
-		printf("%d\n", power - 1);
-		ht(n, 1, 2, 3);
+	int n;
+	int power = 1;
+	scanf_s("%d", &n);
+	for (int i = 0; i < n; i++) {
+		power *= 2;
 	}
+	printf("%d\n", power - 1);
+	ht(n, 1, 2, 3);
 }
